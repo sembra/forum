@@ -1,8 +1,9 @@
 import css from './Header.scss';
+import InnerStyle from '../InnerStyle/InnerStyle';
 
 export default () => (
   <header>
-    <style dangerouslySetInnerHTML={{ __html: css }} />
-    <p>Header</p>
+    <InnerStyle css={css} />
+    <p className="Header_paragraph">Header</p>
   </header>
 )

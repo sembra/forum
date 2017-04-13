@@ -3,8 +3,8 @@ import css from './App.scss';
 export default ({ children }) => (
   <main>
     <style dangerouslySetInnerHTML={{ __html: css }} />
-    <p>App</p>
+    <p className="App_paragraph">App</p>
     {children}
-    <p>App 2</p>
+    <p className="App_paragraph">App 2</p>
   </main>
 )
